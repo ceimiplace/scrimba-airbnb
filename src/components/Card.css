@@ -1,5 +1,7 @@
 .card-container {
   width: 176px;
+  border: 1px solid red;
+  flex: 0 0 auto;
 }
 .card-image {
   width: 100%;
