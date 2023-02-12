@@ -7,17 +7,19 @@ function App() {
     <div className="App">
       <NavBar />
       <Hero />
-      {data.map((elem) => {
-        return (
-          <Card
-            title={elem.title}
-            rating={elem.stats.rating}
-            reviewCount={elem.stats.reviewCount}
-            coverImg={elem.coverImg}
-            price={elem.price}
-          />
-        );
-      })}
+      <div className="cards-container">
+        {data.map((elem) => {
+          return (
+            <Card
+              title={elem.title}
+              rating={elem.stats.rating}
+              reviewCount={elem.stats.reviewCount}
+              coverImg={elem.coverImg}
+              price={elem.price}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }
