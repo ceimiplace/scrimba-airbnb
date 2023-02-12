@@ -2,12 +2,13 @@ import Card from "./components/Card";
 import Hero from "./components/Hero";
 import NavBar from "./components/Navbar";
 import data from "./data";
+import CardsContainer from "./components/CardsContainer";
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Hero />
-      <div className="cards-container">
+      <CardsContainer>
         {data.map((elem) => {
           return (
             <Card
@@ -19,7 +20,7 @@ function App() {
             />
           );
         })}
-      </div>
+      </CardsContainer>
     </div>
   );
 }
