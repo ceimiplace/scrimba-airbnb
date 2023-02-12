@@ -22,3 +22,7 @@
   line-height: 18px;
   width: 70%;
 }
+.hero--logo-container--logo {
+  width: 100%;
+  max-width: 800px;
+}
