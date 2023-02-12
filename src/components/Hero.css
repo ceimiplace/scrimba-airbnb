@@ -1,0 +1,24 @@
+.hero {
+  padding: 32px 36px 49px;
+}
+.hero--heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.hero--logo-container {
+  display: flex;
+  justify-content: center;
+}
+.hero--text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  width: 70%;
+}
