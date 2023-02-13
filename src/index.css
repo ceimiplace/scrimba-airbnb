@@ -4,6 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-.cards-container {
-  padding-left: 36px;
+body {
+  padding-bottom: 50px;
 }
