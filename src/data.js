@@ -55,4 +55,60 @@ export default [
     location: "Spain",
     openSpots: 3,
   },
+  {
+    id: 5,
+    title: "Outdoor sauna",
+    description:
+      "Treat yourself to a one-of-a-kind luxury vacation with a private indoor pool. ThIS gorgeous home rentals offer year-round swimming space that’s all your own.",
+    price: 20,
+    coverImg: "sauna.jpg",
+    stats: {
+      rating: 3.7,
+      reviewCount: 11,
+    },
+    location: "Belgium",
+    openSpots: 3,
+  },
+  {
+    id: 6,
+    title: "Two Floor Apartment",
+    description:
+      "Treat yourself to a one-of-a-kind luxury vacation with a private indoor pool. ThIS gorgeous home rentals offer year-round swimming space that’s all your own.",
+    price: 120,
+    coverImg: "twoFloor.jpg",
+    stats: {
+      rating: 4.9,
+      reviewCount: 21,
+    },
+    location: "Italy",
+    openSpots: 3,
+  },
+  {
+    id: 7,
+    title: "Wooden House",
+    description:
+      "Treat yourself to a one-of-a-kind luxury vacation with a private indoor pool. ThIS gorgeous home rentals offer year-round swimming space that’s all your own.",
+    price: 200,
+    coverImg: "woodHouse.jpg",
+    stats: {
+      rating: 4.3,
+      reviewCount: 41,
+    },
+    location: "Romania",
+    openSpots: 3,
+  },
+  {
+    id: 7,
+    title: "Compact Apartment",
+    description:
+      "Treat yourself to a one-of-a-kind luxury vacation with a private indoor pool. ThIS gorgeous home rentals offer year-round swimming space that’s all your own.",
+    price: 200,
+    coverImg: "smallApartment.jpg",
+    stats: {
+      rating: 4.0,
+      reviewCount: 13,
+    },
+    location: "United Kingdom",
+    openSpots: 3,
+  },
 ];

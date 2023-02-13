@@ -10,7 +10,7 @@ function App() {
       <Hero />
       <CardsContainer>
         {data.map((elem) => {
-          return <Card item={elem} />;
+          return <Card item={elem} key={elem.id} />;
         })}
       </CardsContainer>
     </div>
