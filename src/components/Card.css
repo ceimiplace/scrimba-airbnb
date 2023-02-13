@@ -2,7 +2,16 @@
   width: 176px;
   border: 1px solid red;
   flex: 0 0 auto;
+  font-size: 12px;
 }
 .card-image {
   width: 100%;
+  margin-bottom: 9px;
+}
+.price--container--starting {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+
+  line-height: 13px;
 }
