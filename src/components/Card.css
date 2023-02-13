@@ -1,17 +1,33 @@
 .card-container {
   width: 176px;
-  border: 1px solid red;
+
   flex: 0 0 auto;
   font-size: 12px;
 }
 .card-image {
   width: 100%;
   margin-bottom: 9px;
+  max-height: 235px;
+  border-radius: 9px;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
 }
 .price--container--starting {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
+}
 
-  line-height: 13px;
+.card--star-image {
+  width: 14px;
+  height: 14px;
 }

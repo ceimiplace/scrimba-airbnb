@@ -5,7 +5,7 @@ export default function Card({ item }) {
       <img src={`./images/${item.coverImg}`} className="card-image" />
       <section className="card-text">
         <div>
-          <img src="./images/Star.png" />
+          <img src="./images/Star.png" className="card--star-image" />
           <span>{item.stats.rating}</span>
           <span>({item.stats.reviewCount})</span>
         </div>

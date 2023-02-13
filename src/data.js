@@ -41,4 +41,18 @@ export default [
     location: "Norway",
     openSpots: 3,
   },
+  {
+    id: 4,
+    title: "House Vacation with pool",
+    description:
+      "Treat yourself to a one-of-a-kind luxury vacation with a private indoor pool. ThIS gorgeous home rentals offer year-round swimming space that’s all your own.",
+    price: 120,
+    coverImg: "vacation.jpg",
+    stats: {
+      rating: 4.2,
+      reviewCount: 9,
+    },
+    location: "Spain",
+    openSpots: 3,
+  },
 ];
