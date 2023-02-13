@@ -10,7 +10,6 @@
 .hero--logo-container {
   display: flex;
   justify-content: center;
-  min-height: 300px;
 }
 .hero--text {
   font-family: "Poppins";
@@ -21,8 +20,8 @@
   width: 70%;
 }
 .hero--logo-container--logo {
+  max-width: 600px;
   width: 100%;
-  max-width: 800px;
 }
 .hero {
   padding: 32px 36px 49px;
